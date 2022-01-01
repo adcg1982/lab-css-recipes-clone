@@ -1,0 +1,197 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+    background-image: url("../images/apple-pie.jpg");
+    height: 80vh;
+    text-align: center;
+    font-size: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-bottom: 5vh;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+}
+
+#head-section {
+    margin: 0vh 10vh 5vh;
+    border-bottom: 2px solid grey;
+}
+
+#ingredients-section {
+    margin: 0vh 10vh 5vh;
+    border-bottom: 2px solid grey;
+}
+
+#directions-section {
+    margin: 0vh 10vh 5vh;
+}
+
+.image-div {
+    margin-top: 2.5vh;
+    display:flex;
+    justify-content: center;
+}
+
+img {
+    width: 40vw;
+}
+
+ul li::before {
+    content: "- ";
+}
+
+ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+li {
+    padding-bottom: 10px;
+}
+
